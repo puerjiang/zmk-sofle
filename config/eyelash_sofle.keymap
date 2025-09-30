@@ -100,7 +100,7 @@
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8    &kp MINUS  &kp EQUAL         &kp DELETE
 &trans      &trans           &kp UP          &kp ENTER        &kp BACKSPACE    &trans             &mmv MOVE_DOWN   &kp PAGE_UP      &trans           &trans    &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &kp LEFT         &kp DOWN        &kp RIGHT        &admin           &pw1               &mmv MOVE_LEFT   &kp PAGE_DOWN    &pw2             &pw3      &trans     &kp SQT           &kp LG(ENTER)
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp HOME  &kp END    &trans            &kp RIGHT_SHIFT
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp HOME  &kp END    &trans            &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &mkp LCLK          &mkp MCLK        &mkp RCLK        &trans           &trans    &trans     &trans
             >;
 
