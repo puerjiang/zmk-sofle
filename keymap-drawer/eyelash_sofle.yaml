@@ -59,7 +59,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: LOCKING NUM, h: layer2}
+  - {t: '$$mdi:volume-off$$', h: layer2}
   - APP
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
