@@ -49,43 +49,6 @@
         };
     };
 
-    macros {
-        admin: admin {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp A &kp D &kp M &kp I &kp N &kp I &kp S &kp T &kp R &kp A &kp T &kp O &kp R>;
-            label = "ADMIN";
-        };
-
-        pw1: pw1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(X) &kp X &kp K &kp DOT &kp LS(M) &kp G &kp S &kp LS(Z) &kp Y &kp Y &kp DOT &kp P &kp W &kp N1 &kp RET>;
-            label = "PW1";
-        };
-
-        pw2: pw2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp X &kp X &kp LS(K) &kp DOT &kp LS(M) &kp G &kp S &kp LS(Z) &kp Y &kp Y &kp DOT &kp P &kp W &kp N3 &kp RET>;
-            label = "PW2";
-        };
-
-        pw3: pw3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none &kp LS(D) &kp LS(U) &kp LS(J) &kp LS(I) &kp LS(A) &kp LS(N) &kp LS(G) &kp L &kp O &kp V &kp E &kp N5 &kp N2 &kp N0 &kp UNDER &kp RET>;
-            label = "PW3";
-        };
-
-        lock: lock {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LG(SPACE) &kp LC(LG(Q))>;
-            label = "LOCK";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -106,8 +69,8 @@
             bindings = <
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8    &kp MINUS  &kp EQUAL         &kp DELETE
 &trans      &trans           &kp UP          &kp ENTER        &kp BACKSPACE    &trans             &mmv MOVE_DOWN   &kp PAGE_UP      &trans           &trans    &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp LEFT         &kp DOWN        &kp RIGHT        &admin           &pw1               &mmv MOVE_LEFT   &kp PAGE_DOWN    &pw2             &pw3      &trans     &kp SQT           &kp LG(ENTER)
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp HOME  &kp END    &trans            &lock
+&trans      &kp LEFT         &kp DOWN        &kp RIGHT        &none            &none              &mmv MOVE_LEFT   &none            &none            &none     &trans     &kp SQT           &kp LG(ENTER)
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp HOME  &kp END    &trans            &none
 &kp C_MUTE  &trans           &trans          &trans           &trans           &mkp LCLK          &mkp MCLK        &mkp RCLK        &trans           &trans    &trans     &trans
             >;
 
