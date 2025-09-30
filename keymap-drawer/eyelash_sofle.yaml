@@ -55,15 +55,15 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - layer1
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:volume-off$$', h: layer2}
   - APP
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
   - layer1
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   layer1:
   - {t: '`', s: '~'}
@@ -96,12 +96,12 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&admin'
+  - '&pw1'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PgDn
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&pw2'
+  - '&pw3'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '''', s: '"'}
   - {t: 'Gui+$$mdi:keyboard-return$$', type: enter}
@@ -117,18 +117,18 @@ layers:
   - HOME
   - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&lock'
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   layer2:
   - '~'
