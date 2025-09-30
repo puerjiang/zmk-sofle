@@ -117,7 +117,7 @@ layers:
   - HOME
   - END
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
