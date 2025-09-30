@@ -67,11 +67,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8    &kp MINUS  &kp EQUAL         &kp DELETE
-&trans      &trans           &kp UP          &kp ENTER        &kp BACKSPACE    &trans             &mmv MOVE_DOWN   &kp PAGE_UP      &trans           &trans    &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp LEFT         &kp DOWN        &kp RIGHT        &none            &none              &mmv MOVE_LEFT   &none            &none            &none     &trans     &kp SQT           &kp LG(ENTER)
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp HOME  &kp END    &trans            &none
-&kp C_MUTE  &trans           &trans          &trans           &trans           &mkp LCLK          &mkp MCLK        &mkp RCLK        &trans           &trans    &trans     &trans
+&kp GRAVE   &kp F1    &kp F2    &kp F3     &kp F4         &kp F5       &mmv MOVE_UP     &kp F6       &kp F7  &kp F8    &kp MINUS  &kp EQUAL         &kp DELETE
+&trans      &trans    &kp UP    &kp ENTER  &kp BACKSPACE  &trans       &mmv MOVE_DOWN   &kp PAGE_UP  &kp F9  &kp F10   &kp F11    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &kp LEFT  &kp DOWN  &kp RIGHT  &none          &none        &mmv MOVE_LEFT   &none        &none   &none     &kp F12    &kp SQT           &kp LG(ENTER)
+&trans      &trans    &trans    &trans     &trans         &trans       &mmv MOVE_RIGHT  &trans       &trans  &kp HOME  &kp END    &trans            &none
+&kp C_MUTE  &trans    &trans    &trans     &trans         &mkp LCLK    &mkp MCLK        &mkp RCLK    &trans  &trans    &trans     &trans
             >;
 
             display-name = "layer1";
@@ -80,11 +80,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4       &none      &trans           &trans           &trans      &trans     &trans       &trans
+&trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans           &trans             &none      &trans           &trans           &trans      &trans     &trans       &trans
+&trans  &out OUT_USB  &out OUT_BLE    &trans        &trans           &trans             &none      &trans           &trans           &trans      &trans     &trans       &trans
+&trans  &sys_reset    &trans          &bootloader   &trans           &trans             &none      &trans           &trans           &sys_reset  &soft_off  &bootloader  &trans
+&trans  &trans        &trans          &trans        &rgb_ug RGB_TOG  &rgb_ug RGB_BRI    &mkp LCLK  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &trans      &trans     &trans
             >;
 
             display-name = "layer2";
